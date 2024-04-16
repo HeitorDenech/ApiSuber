@@ -1,5 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Suber</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div>
+                    <img id="logo" src="suber-logo.png" alt="logo">
+                </div>
+                <div class="navbar-text">
+                    <a id="sobre-text" href="#carro-uber">Sobre nós</a>
+                    <a id="servicos-text" href="#img-servico">Serviços</a>
+                    <a id="cadastro-header" href="#img-cadastro">Cadastre-se <i class="bi bi-arrow-right"></i></a>
+                    <!-- <button href="#img-cadastro">Cadastre-se <i class="bi bi-arrow-right"></i></button> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="cabecario">
+            <div class="cabecario-text">
+                <h1>Os melhores carros da
+                    região para alugar </h1>
+                <p>Aqui você encontra os melhores
+                    carros pelos melhores preços.</p>
+            </div>
+            <div class="img-nav-main">
+                <img src="carro-alugando.avif" alt="">
+            </div>
+        </section>
+
+        <section class="sobre">
+
+            <div>
+                <img id="carro-uber" src="carro-uber.webp" alt="">
+            </div>
+
+            <div>
+
+                <h1 id="text-sobre-h1">
+                    Sobre nós
+                </h1>
+
+                <p id="text-sobre-p">
+                    Bem-vindo à Suber, sua escolha confiável para aluguel de
+                    carros de qualidade. Oferecemos uma ampla variedade de
+                    veículos para atender a todas as necessidades de viagem,
+                    com foco na segurança e conforto dos clientes.
+                </p>
+
+                <div id="botao-sobre">
+                    <a href="#img-cadastro">
+                        <button>Cadastre-se <i class="bi bi-arrow-right"></i></button>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="cadastro">
+
+            <div id="img-cadastro">
+                <img src="tela-cadastro.webp" alt="">
+            </div>
+
+            <div>
+
+                <h1 id="text-cadastro-h1">
+                    Cadastre-se
+                </h1>
+
+                <p id="text-cadastro-p">
+                    Receba ofertas exclusivas de aluguel de carros em primeira
+                    mão! Inscreva-se com seu email agora mesmo.
+                </p>
+
+
+                <input type="text" id="title" name="title" placeholder="Insira seu nome"><br>
+
+                <input type="text" id="description" name="description" placeholder="Insira seu email">
+
+            <div class="botao-cadastro">
+                <button class="btn btn-primary btn-ghost" id="handleSubmit"> Enviar <i class="bi bi-send"></i> </button>
+            </div>
+
+            </div>
+
+        </section>
+
+        <section class="servico">
+
+            <div>
+
+                <img id="img-servico" src="servico-uber.avif" alt="">
+
+            </div>
+
+            <div>
+
+                <h1 id="text-servico-h1">
+                    A Suber vai até você!
+                </h1>
+
+                <p id="text-servico-p1">
+                    A Suber oferece um serviço de envio conveniente e eficiente,
+                    sem filas ou trânsito.
+                </p>
+
+                <p id="text-servico-p2">
+                    Seu sistema inteligente localiza o veículo mais próximo para
+                    retirar e entregar pacotes de forma rápida, segura e sem
+                    custos adicionais.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <section class="footer">
+
+            <div id="logo-footer">
+                <a href="#logo"><img id="img-footer" src="suber-logo.png" alt=""></a>
+            </div>
+
+            <div id="text-footer">
+                <p>
+                    <i class="bi bi-c-circle"></i>
+                    2024 Suber Technologies Inc.
+                </p>
+            </div>
+
+            <div class="icons">
+                <div class="instagram">
+                    <a href="https://www.instagram.com/" class="social_icon" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+
+                <div class="whatsapp">
+                    <a href="https://web.whatsapp.com/" class="social_icon" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                </div>
+
+                <div class="facebook">
+                    <a href="https://www.facebook.com/?locale=pt_BR" class="social_icon" target="_blank"><i class="bi bi-facebook"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="linha">
+
+        </div>
+
+        <section class="container-download">
+
+            <a href="https://play.google.com/store/games" target="_blank" class="instalar">
+                <div class="container-google-play">
+                    <i id="icon-google-play" class="bi bi-google-play"></i>
+                    <p>
+                        Google Play
+                    </p>
+                </div>
+            </a>
+
+            <a href="https://www.apple.com/br/store" target="_blank" class="instalar">
+                <div class="container-apple">
+                    <i id="icon-apple" class="bi bi-apple"></i>
+    
+                    <p>
+                        Apple
+                    </p>
+    
+                </div>
+            </a>
+
+        </section>
+
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="scrpt.js"></script>
+    <script src="script2.js"></script>
+
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,4 +224,4 @@
 
     <script src="scrpt.js"></script>    
 </body>
-</html>
+</html> -->

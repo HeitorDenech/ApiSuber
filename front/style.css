@@ -1,0 +1,455 @@
+@media screen and (max-width: 1280px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: black;
+        height: 90px;
+        width: 100%;
+        gap: 450px;
+    }
+
+    #sobre-text{
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        transition: all .85s ease;
+    }
+
+    #sobre-text:hover{
+        text-decoration: none;
+        background: linear-gradient(90deg,#e21a41 60%,transparent 0) left 1rem bottom/220% 100%;
+    }
+
+    #servicos-text{
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        transition: all .85s ease;
+    }
+
+    #servicos-text:hover{
+        text-decoration: none;
+        background: linear-gradient(90deg,#e21a41 60%,transparent 0) left 1rem bottom/220% 100%;
+    }
+
+    #cadastro-header{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding-left: 15px;
+        height: 35px;
+        width: 170px;
+        border-radius: 20px;
+        border: 1px solid white;
+        font-size: 20px;
+        background-color: #070707;
+        color: white;
+        transition: all .55s ease;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    #cadastro-header:hover{
+        color: black;
+        box-shadow: 0px 0px 8px white;
+        transform: scale(1.05);
+        background-color: white;
+        text-decoration: none;
+    }
+
+    .navbar img{
+        height: 100px;
+        width: 180px;
+    }
+
+    /* .navbar button{
+        height: 35px;
+        width: 170px;
+        border-radius: 20px;
+        border: 1px solid white;
+        font-size: 20px;
+        background-color: #070707;
+        color: white;
+        transition: all .55s ease;
+        cursor: pointer;
+    }
+
+    .navbar button:hover{
+        color: black;
+        box-shadow: white;
+        transform: scale(1.05);
+        background-color: white;
+    } */
+
+    .navbar-text{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /* ---------------main----------------- */
+
+    .cabecario{
+        height: 360px;
+        background-color: #070707;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .cabecario h1{
+        width: 450px;
+        color: white;
+        font-size: 40px;
+    }
+
+    .cabecario p{
+        width: 400px;
+        margin-top: 20px;
+        font-size: 28px;
+        color: white;
+    }
+
+    .cabecario img{
+        height: 290px;
+        width: 440px;
+        border-radius: 20px;
+        filter: grayscale(0%);
+        transition: all .55s ease;
+    }
+
+    .cabecario img:hover{
+        border: 1px solid white;
+        filter: grayscale(100%);
+    }
+
+    .cabecario-text{
+        padding: 70px;
+    }
+
+    .sobre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 20px;
+    }
+
+    .sobre h1{
+        font-size: 40px;
+    }
+
+    .sobre p{
+        margin-top: 20px;
+        font-size: 25px;
+        width: 500px;
+    }
+
+    .sobre img{
+        margin-top: 20px;
+        height: 420px;
+        width: 510px;
+        border-radius: 20px;
+        transition: all .55s ease;
+        filter: grayscale(0%);
+    }
+
+    .sobre img:hover{
+        border: 1px solid white;
+        filter: grayscale(100%);
+        border: 1px solid black;
+    }
+
+    .sobre button{
+        margin-top: 20px;
+        height: 35px;
+        width: 170px;
+        border-radius: 20px;
+        border: 1px solid black;
+        font-size: 20px;
+        background-color: white;
+        color: black;
+        transition: all .55s ease;
+        cursor: pointer;
+    }
+
+    .sobre button:hover{
+        color: white;
+        transform: scale(1.05);
+        background-color: black;
+        box-shadow: 0px 0px 8px black;
+    }
+
+    .cadastro{
+        margin-top: 60px;
+        height: 500px;
+        background-color: #070707;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .cadastro img{
+        border-radius: 20px;
+        height: 380px;
+        width: 510px;
+        filter: grayscale(0%);
+        transition: all .55s ease;
+    }
+
+    .cadastro img:hover{
+        border: 2px solid white;
+        filter: grayscale(100%);
+    }
+
+    .cadastro h1{
+        font-size: 40px;
+        color: white;
+    }
+
+    .cadastro p{
+        margin-top: 20px;
+        width: 450px;
+        color: white;
+        font-size: 25px;
+    }
+
+    .cadastro input{
+        font-size: 20px;
+        padding-left: 15px;
+        height: 42px;
+        width: 400px;
+        border: 1px solid white;
+        border-radius: 20px;
+        margin-top: 20px;
+        color: white;
+        background: transparent;
+        outline: none;
+    }
+
+    .cadastro input:hover{
+        border: 1px solid #09ff00;
+        box-shadow: 0px 0px 8px #09ff00;
+    }
+
+    .cadastro button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+        height: 42px;
+        width: 140px;
+        border-radius: 20px;
+        border: 0px solid white;
+        font-size: 20px;
+        background-color: #18980c;
+        color: white;
+        transition: all .55s ease;
+        cursor: pointer;
+    }
+
+    .cadastro button:hover{
+        color: white;
+        transform: scale(1.05);
+        box-shadow: 0px 0px 8px #09ff00;
+        background-color: #1edc0d;
+        background: linear-gradient(120deg, transparent,
+            #09ff00, transparent);
+    }
+
+    .servico{
+        height: 600px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }       
+
+    .servico img{
+        border-radius: 20px;
+        height: 400px;
+        width: 550px;
+        transition: all .55s ease;
+        filter: grayscale(0%);
+    }
+
+    .servico img:hover{
+        border: 1px solid black;
+        filter: grayscale(100%);
+    }
+
+    .servico h1{
+        font-size: 45px;
+    }
+
+    .servico p{
+        width: 510px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    /* -----------footer------------ */
+
+    footer{
+        background-color: black;
+        height: 350px;
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 50px;
+    }
+
+    #img-footer{
+        height: 80px;
+        width: 170px;
+        transition: all .55s ease;
+    }
+
+    #img-footer:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    footer p{
+        color: white;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 42px;
+    }
+
+    .instagram{
+        color: white;
+        transition: all .55s ease;
+    }
+
+    #instagram{
+        height: 50px;
+        width: 50px;
+    }
+
+    .instagram:hover{
+        transform: scale(1.05);
+    }
+
+    .social_icon{
+        font-size: 35px;
+        color: white;
+        transition: all .55s ease;
+    }
+
+    .whatsapp:hover{
+        transform: scale(1.05);
+    }
+
+    .facebook{
+        font-size: 35px;
+        color: white;
+        transition: all .55s ease;
+    }
+
+    .facebook:hover{
+        transform: scale(1.05);
+    }
+
+    .linha{
+        margin-top: 60px;
+        height: 1px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .container-download{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .instalar{
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .container-download p{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-top: 13px;
+        cursor: pointer;
+    }
+
+    .container-google-play{
+        margin-top: 50px;
+        height: 50px;
+        width: 200px;
+        border: 1px solid white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        transition: all .55s ease;
+        cursor: pointer;
+    }
+
+    .container-google-play:hover{
+        transform: scale(1.05);
+        box-shadow: 0px 0px 8px white;
+        cursor: default;
+        cursor: pointer;
+    }
+
+    #icon-google-play{
+        margin-top: 8px;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .container-apple{
+        margin-top: 50px;
+        height: 50px;
+        width: 160px;
+        border: 1px solid white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        transition: all .55s ease;
+        cursor: pointer;
+    }
+
+    .container-apple:hover{
+        transform: scale(1.05);
+        box-shadow: 0px 0px 8px white;
+        cursor: default;
+        cursor: pointer;
+    }
+
+    #icon-apple{
+        margin-top: 8px;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+}
+
