@@ -58,3 +58,4 @@ sr.reveal('#text-servico-p2', {delay:100, origin: 'top'});
 // sr.reveal('.icons', {delay:100, origin: 'right'});
 
 // sr.reveal('.container-download', {delay:100, origin: 'top'});
+

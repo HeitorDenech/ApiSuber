@@ -11,11 +11,21 @@ button.onclick = async function () {
         body: JSON.stringify(data)
     });
  
-    // let content = await response.json();
+    let content = await response.json();
  
     // if (content.sucess) {
     //     alert("Sucesso")
     // } else {
-    //     alert('Não');
+    //     alert('Você foi cadastrado com sucesso!');
+        
     // }
+    swal({
+        title: "Parabéns!",
+        text: "Você foi cadastrado com sucesso!",
+        icon: "success",
+      });
+
 }
+
+
+
