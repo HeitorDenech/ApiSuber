@@ -132,7 +132,6 @@
     }
 
     .cabecario img:hover{
-        border: 1px solid white;
         filter: grayscale(100%);
     }
 
@@ -168,9 +167,7 @@
     }
 
     .sobre img:hover{
-        border: 1px solid white;
         filter: grayscale(100%);
-        border: 1px solid black;
     }
 
     .sobre button{
@@ -212,7 +209,6 @@
     }
 
     .cadastro img:hover{
-        border: 2px solid white;
         filter: grayscale(100%);
     }
 
@@ -290,7 +286,6 @@
     }
 
     .servico img:hover{
-        border: 1px solid black;
         filter: grayscale(100%);
     }
 
@@ -452,4 +447,3 @@
     }
 
 }
-
