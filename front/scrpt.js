@@ -19,7 +19,12 @@ button.onclick = async function () {
             title: "Verifique seu nome!",
             icon: "error",
         });
-    } else if(email === "" || !results) {
+    } else if(email === "") {
+        swal({
+            title: "Insira seu email!",
+            icon: "error",
+        });
+    } else if(!results) {
         swal({
             title: "Verifique seu email!",
             icon: "error",
@@ -38,7 +43,7 @@ button.onclick = async function () {
         if (content.success) {
             swal({
                 title: "Parabéns!",
-                text: "Você foi cadastrado com sucesso!",
+                text: "Você foi cadastrado no Suber com sucesso!",
                 icon: "success",
             });
         } else {
