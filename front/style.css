@@ -1,16 +1,21 @@
-@media screen and (max-width: 1280px){
-    *{
+@media screen and (max-width: 1280px) {
+    * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
     }
-
-    html{
+ 
+    html {
         scroll-behavior: smooth;
+        overflow-x: hidden;
     }
-
-    .navbar{
+ 
+    body {
+        overflow-x: hidden;
+    }
+ 
+    .navbar {
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -19,32 +24,32 @@
         width: 100%;
         gap: 450px;
     }
-
-    #sobre-text{
+ 
+    #sobre-text {
         color: white;
         text-decoration: none;
         font-size: 22px;
         transition: all .85s ease;
     }
-
-    #sobre-text:hover{
+ 
+    #sobre-text:hover {
         text-decoration: none;
-        background: linear-gradient(90deg,#e21a41 60%,transparent 0) left 1rem bottom/220% 100%;
+        background: linear-gradient(90deg, #e21a41 60%, transparent 0) left 1rem bottom/220% 100%;
     }
-
-    #servicos-text{
+ 
+    #servicos-text {
         color: white;
         text-decoration: none;
         font-size: 22px;
         transition: all .85s ease;
     }
-
-    #servicos-text:hover{
+ 
+    #servicos-text:hover {
         text-decoration: none;
-        background: linear-gradient(90deg,#e21a41 60%,transparent 0) left 1rem bottom/220% 100%;
+        background: linear-gradient(90deg, #e21a41 60%, transparent 0) left 1rem bottom/220% 100%;
     }
-
-    #cadastro-header{
+ 
+    #cadastro-header {
         display: flex;
         align-items: center;
         gap: 8px;
@@ -60,20 +65,20 @@
         cursor: pointer;
         text-decoration: none;
     }
-
-    #cadastro-header:hover{
+ 
+    #cadastro-header:hover {
         color: black;
         box-shadow: 0px 0px 8px white;
         transform: scale(1.05);
         background-color: white;
         text-decoration: none;
     }
-
-    .navbar img{
+ 
+    .navbar img {
         height: 100px;
         width: 180px;
     }
-
+ 
     /* .navbar button{
         height: 35px;
         width: 170px;
@@ -85,23 +90,23 @@
         transition: all .55s ease;
         cursor: pointer;
     }
-
+ 
     .navbar button:hover{
         color: black;
         box-shadow: white;
         transform: scale(1.05);
         background-color: white;
     } */
-
-    .navbar-text{
+ 
+    .navbar-text {
         display: flex;
         align-items: center;
         gap: 30px;
     }
-
+ 
     /* ---------------main----------------- */
-
-    .cabecario{
+ 
+    .cabecario {
         height: 360px;
         background-color: #070707;
         display: flex;
@@ -109,55 +114,55 @@
         justify-content: center;
         gap: 20px;
     }
-
-    .cabecario h1{
+ 
+    .cabecario h1 {
         width: 450px;
         color: white;
         font-size: 40px;
     }
-
-    .cabecario p{
+ 
+    .cabecario p {
         width: 400px;
         margin-top: 20px;
         font-size: 28px;
         color: white;
     }
-
-    .cabecario img{
+ 
+    .cabecario img {
         height: 290px;
         width: 440px;
         border-radius: 20px;
         filter: grayscale(0%);
         transition: all .55s ease;
     }
-
-    .cabecario img:hover{
+ 
+    .cabecario img:hover {
         filter: grayscale(100%);
     }
-
-    .cabecario-text{
+ 
+    .cabecario-text {
         padding: 70px;
     }
-
-    .sobre{
+ 
+    .sobre {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 40px;
         margin-top: 20px;
     }
-
-    .sobre h1{
+ 
+    .sobre h1 {
         font-size: 40px;
     }
-
-    .sobre p{
+ 
+    .sobre p {
         margin-top: 20px;
         font-size: 25px;
         width: 500px;
     }
-
-    .sobre img{
+ 
+    .sobre img {
         margin-top: 20px;
         height: 420px;
         width: 510px;
@@ -165,12 +170,12 @@
         transition: all .55s ease;
         filter: grayscale(0%);
     }
-
-    .sobre img:hover{
+ 
+    .sobre img:hover {
         filter: grayscale(100%);
     }
-
-    .sobre button{
+ 
+    .sobre button {
         margin-top: 20px;
         height: 35px;
         width: 170px;
@@ -182,15 +187,15 @@
         transition: all .55s ease;
         cursor: pointer;
     }
-
-    .sobre button:hover{
+ 
+    .sobre button:hover {
         color: white;
         transform: scale(1.05);
         background-color: black;
         box-shadow: 0px 0px 8px black;
     }
-
-    .cadastro{
+ 
+    .cadastro {
         margin-top: 60px;
         height: 500px;
         background-color: #070707;
@@ -199,32 +204,32 @@
         justify-content: center;
         gap: 30px;
     }
-
-    .cadastro img{
+ 
+    .cadastro img {
         border-radius: 20px;
         height: 380px;
         width: 510px;
         filter: grayscale(0%);
         transition: all .55s ease;
     }
-
-    .cadastro img:hover{
+ 
+    .cadastro img:hover {
         filter: grayscale(100%);
     }
-
-    .cadastro h1{
+ 
+    .cadastro h1 {
         font-size: 40px;
         color: white;
     }
-
-    .cadastro p{
+ 
+    .cadastro p {
         margin-top: 20px;
         width: 450px;
         color: white;
         font-size: 25px;
     }
-
-    .cadastro input{
+ 
+    .cadastro input {
         font-size: 20px;
         padding-left: 15px;
         height: 42px;
@@ -236,13 +241,13 @@
         background: transparent;
         outline: none;
     }
-
-    .cadastro input:hover{
+ 
+    .cadastro input:hover {
         border: 1px solid #09ff00;
         box-shadow: 0px 0px 8px #09ff00;
     }
-
-    .cadastro button{
+ 
+    .cadastro button {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -258,143 +263,143 @@
         transition: all .55s ease;
         cursor: pointer;
     }
-
-    .cadastro button:hover{
+ 
+    .cadastro button:hover {
         color: white;
         transform: scale(1.05);
         box-shadow: 0px 0px 8px #09ff00;
         background-color: #1edc0d;
         background: linear-gradient(120deg, transparent,
-            #09ff00, transparent);
+                #09ff00, transparent);
     }
-
-    .servico{
+ 
+    .servico {
         height: 600px;
         background-color: white;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 50px;
-    }       
-
-    .servico img{
+    }
+ 
+    .servico img {
         border-radius: 20px;
         height: 400px;
         width: 550px;
         transition: all .55s ease;
         filter: grayscale(0%);
     }
-
-    .servico img:hover{
+ 
+    .servico img:hover {
         filter: grayscale(100%);
     }
-
-    .servico h1{
+ 
+    .servico h1 {
         font-size: 45px;
     }
-
-    .servico p{
+ 
+    .servico p {
         width: 510px;
         margin-top: 20px;
         font-size: 25px;
     }
-
+ 
     /* -----------footer------------ */
-
-    footer{
+ 
+    footer {
         background-color: black;
         height: 350px;
     }
-
-    .footer{
+ 
+    .footer {
         display: flex;
         align-items: center;
         justify-content: space-around;
         padding-top: 50px;
     }
-
-    #img-footer{
+ 
+    #img-footer {
         height: 80px;
         width: 170px;
         transition: all .55s ease;
     }
-
-    #img-footer:hover{
+ 
+    #img-footer:hover {
         cursor: pointer;
         transform: scale(1.05);
     }
-
-    footer p{
+ 
+    footer p {
         color: white;
     }
-
-    .icons{
+ 
+    .icons {
         display: flex;
         align-items: center;
         gap: 42px;
     }
-
-    .instagram{
+ 
+    .instagram {
         color: white;
         transition: all .55s ease;
     }
-
-    #instagram{
+ 
+    #instagram {
         height: 50px;
         width: 50px;
     }
-
-    .instagram:hover{
+ 
+    .instagram:hover {
         transform: scale(1.05);
     }
-
-    .social_icon{
+ 
+    .social_icon {
         font-size: 35px;
         color: white;
         transition: all .55s ease;
     }
-
-    .whatsapp:hover{
+ 
+    .whatsapp:hover {
         transform: scale(1.05);
     }
-
-    .facebook{
+ 
+    .facebook {
         font-size: 35px;
         color: white;
         transition: all .55s ease;
     }
-
-    .facebook:hover{
+ 
+    .facebook:hover {
         transform: scale(1.05);
     }
-
-    .linha{
+ 
+    .linha {
         margin-top: 60px;
         height: 1px;
         width: 100%;
         background-color: white;
     }
-
-    .container-download{
+ 
+    .container-download {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
-
-    .instalar{
+ 
+    .instalar {
         text-decoration: none;
         cursor: pointer;
     }
-
-    .container-download p{
+ 
+    .container-download p {
         font-size: 20px;
         display: flex;
         justify-content: center;
         margin-top: 13px;
         cursor: pointer;
     }
-
-    .container-google-play{
+ 
+    .container-google-play {
         margin-top: 50px;
         height: 50px;
         width: 200px;
@@ -405,22 +410,22 @@
         transition: all .55s ease;
         cursor: pointer;
     }
-
-    .container-google-play:hover{
+ 
+    .container-google-play:hover {
         transform: scale(1.05);
         box-shadow: 0px 0px 8px white;
         cursor: default;
         cursor: pointer;
     }
-
-    #icon-google-play{
+ 
+    #icon-google-play {
         margin-top: 8px;
         color: white;
         font-size: 30px;
         cursor: pointer;
     }
-
-    .container-apple{
+ 
+    .container-apple {
         margin-top: 50px;
         height: 50px;
         width: 160px;
@@ -431,19 +436,230 @@
         transition: all .55s ease;
         cursor: pointer;
     }
-
-    .container-apple:hover{
+ 
+    .container-apple:hover {
         transform: scale(1.05);
         box-shadow: 0px 0px 8px white;
         cursor: default;
         cursor: pointer;
     }
-
-    #icon-apple{
+ 
+    #icon-apple {
         margin-top: 8px;
         color: white;
         font-size: 30px;
         cursor: pointer;
     }
-
+ 
+}
+ 
+@media screen and (max-width: 430px) {
+ 
+    /* --------HEADER---------- */
+ 
+    .navbar {
+        height: 9vh;
+        width: 430px;
+        gap: 50px;
+    }
+ 
+    #sobre-text {
+        display: none;
+    }
+ 
+    #servicos-text {
+        display: none;
+    }
+ 
+    .navbar img {
+        height: 100px;
+        width: 180px;
+    }
+ 
+    /* --------MAIN---------- */
+ 
+    /* ------cabecario------- */
+ 
+    .cabecario {
+        height: 19vh;
+        padding: 20px 0px 20px 30px;
+    }
+ 
+    .cabecario h1 {
+        width: 360px;
+        font-size: 32px;
+        font-weight: 500;
+    }
+ 
+    .cabecario p {
+        width: 340px;
+        margin: 15px 0px;
+        font-size: 17px;
+        font-weight: lighter;
+    }
+ 
+    .cabecario img {
+        display: none;
+    }
+ 
+    /* ------sobre-------- */
+ 
+    .sobre {
+        height: 490px;
+        width: 430px;
+        padding: 22px;
+        display: block;
+        margin-top: 0px;
+        text-align: center;
+    }
+ 
+    .sobre h1 {
+        font-size: 35px;
+        font-weight: bold;
+        margin: 12px 0px;
+        text-align: left;
+        padding-left: 5px;
+    }
+ 
+    .sobre p {
+        font-size: 18px;
+        text-align: left;
+        padding-left: 5px;
+        width: 380px;
+        margin-top: 5px;
+    }
+ 
+    .sobre img {
+        margin-top: 10px;
+        height: 305px;
+        width: 370px;
+    }
+ 
+    .sobre button {
+        display: none;
+    }
+ 
+    /* ---------cadastro-------- */
+ 
+    .cadastro {
+        margin-top: 60px;
+        width: 430px;
+        height: 420px;
+        gap: 30px;
+    }
+ 
+    .cadastro img {
+        display: none;
+    }
+ 
+    .cadastro h1 {
+        font-size: 40px;
+        padding-left: 10px;
+    }
+ 
+    .cadastro p {
+        margin-top: 13px;
+        width: 430px;
+        padding: 0px 40px 0px 10px;
+        font-size: 19px;
+    }
+ 
+    .cadastro input {
+        font-size: 20px;
+        height: 42px;
+        width: 365px;
+        margin-left: 5px;
+    }
+ 
+    .cadastro button {
+        margin-left: 5px;
+    }
+ 
+    /* ----------serviço---------- */
+ 
+    .servico {
+        height: 560px;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+ 
+    .servico img {
+        border-radius: 20px;
+        height: 280px;
+        width: 385px;
+        transition: all .55s ease;
+        filter: grayscale(0%);
+    }
+ 
+    .servico h1 {
+        font-size: 32px;
+        margin-top: 15px;
+    }
+ 
+    .servico p {
+        width: 430px;
+        margin-top: 20px;
+        font-size: 20px;
+        padding: 0px 30px;
+    }
+ 
+    /* --------FOOTER----------- */
+ 
+    footer {
+        height: 340px;
+    }
+ 
+    .footer {
+        padding-top: 30px;
+ 
+        display: grid;
+        grid-template-areas: "img" "redes-sociais" "text-footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 30% 30%;
+    }
+ 
+    #img-footer {
+        grid-area: img;
+        height: 125px;
+        width: 200px;
+    }
+ 
+    #text-footer {
+        grid-area: text-footer;
+        margin-left: 30px;
+    }
+ 
+    .icons {
+        grid-area: redes-sociais;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+ 
+    .social_icon {
+        font-size: 30px;
+    }
+ 
+    .facebook {
+        padding-bottom: 2px;
+    }
+ 
+    .linha {
+        margin-top: 10px;
+    }
+ 
+    .container-google-play {
+        margin-top: 30px;
+    }
+ 
+    #icon-google-play {
+        margin-top: 8px;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+ 
+    .container-apple {
+        margin-top: 30px;
+    }
 }
